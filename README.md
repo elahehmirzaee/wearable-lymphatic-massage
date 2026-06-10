@@ -68,7 +68,7 @@ This analytical approach **reduces trial-and-error** in material selection and w
 📁 /simulations – COMSOL model files (.mph)
 📁 /matlab – MATLAB scripts for curvature optimization (Appendix A)
 📁 /data – Material property tables (Appendix B)
-📄 README.md – This file
+📄 README.md 
 
 
 ---
