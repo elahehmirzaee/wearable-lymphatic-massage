@@ -72,7 +72,6 @@ The COMSOL Multiphysics simulation file is available for download:
 
 📁 /docs – Full thesis PDF (HSN-Master thesis-Mirzaee.pdf)
 📁 /matlab – MATLAB scripts for curvature optimization (Appendix A)
-📁 /data – Material property tables (Appendix B)
 📄 README.md 
 
 
