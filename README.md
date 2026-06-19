@@ -61,11 +61,16 @@ The MATLAB code solves for the **optimal thickness of the non-piezoelectric laye
 This analytical approach **reduces trial-and-error** in material selection and was validated against COMSOL simulations.
 
 ---
+## Simulation Files
 
+The COMSOL Multiphysics simulation file is available for download:
+
+- [Download from Releases](https://github.com/elahehmirzaee/wearable-lymphatic-massage/releases/tag/binary-piezo)
+  
+---
 ## Repository Contents
 
 📁 /docs – Full thesis PDF (HSN-Master thesis-Mirzaee.pdf)
-📁 /simulations – COMSOL model files (.mph)
 📁 /matlab – MATLAB scripts for curvature optimization (Appendix A)
 📁 /data – Material property tables (Appendix B)
 📄 README.md 
