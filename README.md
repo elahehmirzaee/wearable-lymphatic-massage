@@ -2,24 +2,24 @@
 
 ## Overview
 
-This repository contains the research and simulation work from my Master's thesis at the University College of Southeast Norway (2017). The goal was to design a **portable, wearable device** capable of performing **lymphatic drainage massage** to enhance blood circulation, with a focus on the legs — a common site for varicose veins, reticular veins, and spider veins.
+This repository contains the research and simulation work from my Master's thesis at the University of South-Eastern Norway (USN), formerly Univeristy College of Southeast Norway (HSN) (2017). The goal was to design a **portable, wearable device** capable of performing **lymphatic drainage massage** to enhance blood circulation, with a focus on the legs — a common site for varicose veins.
 
-Unlike bulky pneumatic systems or high‑frequency vibration motors, this device aims to mimic the **slow, superficial pressure** of a human massage (effleurage) using **piezoelectric actuators**.
+Common availabe devices for performing massage are bulky pneumatic systems or high‑frequency vibration motors. Due to lack of a device that mimics the **slow, superficial pressure** of human massage, the proposed device is devised: using **piezoelectric actuators** to apply a soothing pressure with a pace similar to hand movements.
 
 ---
 
 ## Key Contributions
 
--  Identified **effleurage** as the most suitable massage technique for portable lymphatic drainage  
+-  Identified **effleurage** as the most suitable massage technique
 -  Defined device parameters:  
   - Frequency: **1–2 strokes/second**  
   - Pressure range: **1.86–6.53 kPa** (based on compression hosiery standards)  
   - Target tissue displacement: **3–4 mm**  
 -  Selected **piezoelectric materials** (PZT and PVDF) for dry, safe operation  
--  Performed **FEM simulations (COMSOL Multiphysics 5.3)** to evaluate actuator performance  
--  Compared **contraction/expansion** vs. **bending** actuator modes  
--  **Developed MATLAB scripts** to analytically optimize unimorph bender geometry — solving for the non-piezoelectric layer thickness that maximizes deflection (see Appendix A of thesis)  
--  Optimized **unimorph** and **bimorph** bender structures for maximum deflection under **60V DC** (medical device safety limit)
+  - Performed **FEM simulations (COMSOL Multiphysics 5.3)** to evaluate actuator performance  
+  - Compared **contraction/expansion** vs. **bending** actuator modes  
+-  **Developed MATLAB scripts** to analytically and mathematically analyse simulation results to understand the performance and find the suitable structure (see Appendix A of thesis)  
+-  Optimized the structures for maximum deflection under **60V DC** (medical device safety limit)
 
 ---
 
@@ -42,9 +42,9 @@ Bending actuators **significantly outperform** longitudinal contraction, with **
 
 - **Simulation**: COMSOL Multiphysics 5.3 (FEM, Structural Mechanics + Electrostatics modules)  
 - **Analytical Optimization**: MATLAB (curvature differentiation, root finding, parametric sweeps)  
-- **Materials**:
+- **The Nominated Materials**:
   - Piezoelectric: PZT(5H), PVDF
-  - Non‑piezoelectric: Glass fiber composite (GFC), Carbon fiber composite (CFC), steel, aluminum, PDMS  
+  - Non‑piezoelectric: Glass fiber composite (GFC), Carbon fiber composite (CFC), PDMS  
 - **Standards**: Medical Devices Directive 93/42/EEC (Class 1), IEC 60601‑1 (60V DC limit)
 
 ---
@@ -63,7 +63,7 @@ This analytical approach **reduces trial-and-error** in material selection and w
 ---
 ## Simulation Files
 
-The COMSOL Multiphysics simulation file is available for download:
+The COMSOL Multiphysics simulation file for the final structure is available for download:
 
 - [Download from Releases](https://github.com/elahehmirzaee/wearable-lymphatic-massage/releases/tag/binary-piezo)
   
@@ -98,7 +98,7 @@ The COMSOL Multiphysics simulation file is available for download:
 
 If you use this work, please cite:
 
-> Mirzaee, E. (2017). *Wearable Lymphatic Drainage Massage – Design and Simulation*. Master's thesis, University College of Southeast Norway.
+> Mirzaee, E. (2017). *Wearable Lymphatic Drainage Massage – Design and Simulation*. Master's thesis, University of South-Eastern Norway.
 
 ---
 
